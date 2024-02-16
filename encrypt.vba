@@ -1,7 +1,7 @@
 Private Sub Workbook_Open()
     Dim secret As String
     ' The secret that gets used for the XOR encryption
-    ' In theory, a secret with enough entropy and a length that is equal to or more than the content that is to be ecnrypted,
+    ' In theory, a secret with enough entropy and a length that is equal to or more than the content that is to be encrypted,
     ' makes for perfect encryption
     ' It is however not practical, but as this is a PoC, it will suffice.
     secret = "mysecret123!"
